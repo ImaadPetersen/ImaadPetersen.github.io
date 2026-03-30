@@ -3,75 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imaad Petersen | Portfolio</title>
+    <title>Imaad Petersen | ICT Portfolio</title>
     <style>
-        :root { --primary: #2563eb; --dark: #1e293b; --light: #f8fafc; --accent: #0077b5; }
-        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 40px 20px; color: var(--dark); background-color: #fff; }
-        header { text-align: center; padding-bottom: 40px; border-bottom: 2px solid var(--light); }
-        .contact-info { color: #64748b; margin: 10px 0; font-size: 0.9rem; }
-        .btn-linkedin { display: inline-block; background: var(--accent); color: white; padding: 10px 25px; border-radius: 5px; text-decoration: none; margin-top: 15px; font-weight: bold; transition: 0.3s; }
-        .btn-linkedin:hover { opacity: 0.9; transform: translateY(-2px); }
-        .section { margin: 40px 0; }
-        h2 { color: var(--primary); border-left: 5px solid var(--primary); padding-left: 15px; text-transform: uppercase; font-size: 1.1rem; letter-spacing: 1px; }
-        .tag { background: var(--light); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; margin: 4px; display: inline-block; border: 1px solid #e2e8f0; }
-        .project-card { background: var(--light); padding: 20px; border-radius: 8px; border-left: 4px solid var(--primary); }
-        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; background: #000; border-radius: 8px; margin-top: 20px; }
-        .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-        ul { padding-left: 20px; }
+        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; color: #333; background-color: #f4f4f9; }
+        header { background: #2563eb; color: white; padding: 20px; text-align: center; border-radius: 8px; }
+        .container { background: white; padding: 30px; margin-top: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        h2 { color: #2563eb; border-bottom: 2px solid #eee; padding-bottom: 10px; }
+        .btn { display: inline-block; padding: 10px 20px; margin: 10px 5px; border-radius: 5px; text-decoration: none; font-weight: bold; color: white; }
+        .linkedin { background: #0077b5; }
+        .download { background: #28a745; }
+        .video-box { position: relative; padding-bottom: 56.25%; height: 0; margin-top: 20px; }
+        .video-box iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px; }
+        .tag { background: #e2e8f0; padding: 4px 10px; border-radius: 10px; font-size: 0.8em; margin-right: 5px; }
     </style>
 </head>
 <body>
 
-  <header>
-        <h1>IMAAD PETERSEN</h1>
-        <p><strong>ICT Applications Development Student</strong> [cite: 4, 51]</p>
-        <div class="contact-info">
-            Cape Town, South Africa | petersenimaad3@gmail.com [cite: 2]
-        </div>
-        
-        <a href="https://linkedin.com/in/YOUR-PROFILE-NAME" class="btn-linkedin" target="_blank">Connect on LinkedIn</a>
-        
-        <a href="cv.pdf" class="btn-linkedin" style="background: #28a745;" download>Download PDF CV</a>
-    </header>
+<header>
+    <h1>IMAAD PETERSEN [cite: 1]</h1>
+    <p>ICT Applications Development Student [cite: 4, 51]</p>
+    <a href="https://www.linkedin.com/in/YOUR-PROFILE" class="btn linkedin">LinkedIn</a>
+    <a href="cv.pdf" class="btn download" download>Download CV PDF</a>
+</header>
 
-    <div class="section">
-        <h2>Professional Summary</h2>
-        <p>Motivated ICT student seeking WIL placement to apply programming skills in PHP, JavaScript, HTML, CSS, and Java. Eager to contribute to a development team while gaining practical experience.</p>
+<div class="container">
+    <h2>Professional Summary</h2>
+    <p>Motivated ICT student seeking WIL placement[cite: 4]. Skilled in PHP, JavaScript, HTML, CSS, and Java[cite: 4, 8].</p>
+
+    <h2>Technical Skills</h2>
+    <p>
+        <strong>Languages:</strong> <span class="tag">Java</span><span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">HTML/CSS</span> [cite: 8, 9]<br>
+        <strong>Tools:</strong> <span class="tag">Laravel</span><span class="tag">WAMP</span><span class="tag">MySQL</span> [cite: 11, 12, 14]
+    </p>
+
+    <h2>Project: VW MK1 Spares</h2>
+    <p>Designed and developed a responsive e-commerce website for Volkswagen MK1 spare parts using HTML, CSS, and JavaScript[cite: 39, 40, 41].</p>
+
+    <h2>Video CV</h2>
+    <div class="video-box">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
     </div>
 
-    <div class="section">
-        <h2>Technical Stack</h2>
-        <div>
-            <strong>Languages:</strong>
-            <span class="tag">Java</span> <span class="tag">JavaScript</span> <span class="tag">PHP</span> <span class="tag">HTML</span> <span class="tag">CSS</span>
-        </div>
-        <div style="margin-top:15px;">
-            <strong>Frameworks & Tools:</strong>
-            <span class="tag">Laravel</span> <span class="tag">WAMP</span> <span class="tag">MySQL</span> <span class="tag">Git/GitHub</span>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2>Key Project</h2>
-        <div class="project-card">
-            <h3>VW MK1 Spares E-Commerce</h3>
-            <p>Designed and developed a responsive website for Volkswagen MK1 parts. Implemented product listings and interactive front-end functionality.</p>
-            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2>Video CV</h2>
-        <div class="video-container">
-            <iframe src="https://youtube.com/shorts/Np33cObe6Uc?si=bf6yZCI4hA_cMgM7" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-
-    <div class="section">
-        <h2>Education</h2>
-        <p><strong>Diploma in ICT (Applications Development)</strong><br>
-        CPUT | 2023 - Present</p>
-    </div>
+    <h2>Education & Experience</h2>
+    <ul>
+        <li><strong>Diploma ICT (App Dev):</strong> CPUT (2023 - Present) [cite: 47, 51]</li>
+        <li><strong>Seasonal Cricket Coach:</strong> Under the Sun (2024 - 2025) [cite: 25, 26, 27]</li>
+        <li><strong>Seasonal Cashier:</strong> Howler Events (2020 - 2025) [cite: 29, 30, 31]</li>
+    </ul>
+</div>
 
 </body>
 </html>
+
+
