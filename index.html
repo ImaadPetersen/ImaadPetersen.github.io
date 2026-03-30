@@ -3,52 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Imaad Petersen | ICT Portfolio</title>
+    <title>Imaad Petersen | Portfolio</title>
     <style>
-        body { font-family: sans-serif; line-height: 1.6; max-width: 800px; margin: auto; padding: 20px; color: #333; background-color: #f4f4f9; }
-        header { background: #2563eb; color: white; padding: 20px; text-align: center; border-radius: 8px; }
-        .container { background: white; padding: 30px; margin-top: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
-        h2 { color: #2563eb; border-bottom: 2px solid #eee; padding-bottom: 10px; }
-        .btn { display: inline-block; padding: 10px 20px; margin: 10px 5px; border-radius: 5px; text-decoration: none; font-weight: bold; color: white; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 850px; margin: auto; padding: 20px; color: #1e293b; background-color: #f1f5f9; }
+        header { background: #1e293b; color: white; padding: 40px 20px; text-align: center; border-radius: 12px; margin-bottom: 30px; }
+        .container { background: white; padding: 40px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+        h2 { color: #2563eb; border-bottom: 2px solid #e2e8f0; padding-bottom: 10px; margin-top: 30px; text-transform: uppercase; font-size: 1.1rem; letter-spacing: 1px; }
+        .btn { display: inline-block; padding: 12px 24px; margin: 10px 5px; border-radius: 6px; text-decoration: none; font-weight: bold; color: white; transition: 0.3s; border: none; cursor: pointer; }
         .linkedin { background: #0077b5; }
-        .download { background: #28a745; }
-        .video-box { position: relative; padding-bottom: 56.25%; height: 0; margin-top: 20px; }
-        .video-box iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border-radius: 8px; }
-        .tag { background: #e2e8f0; padding: 4px 10px; border-radius: 10px; font-size: 0.8em; margin-right: 5px; }
+        .download { background: #16a34a; }
+        .btn:hover { opacity: 0.9; transform: translateY(-2px); }
+        .video-box { position: relative; padding-bottom: 56.25%; height: 0; margin: 25px 0; border-radius: 12px; overflow: hidden; background: #000; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1); }
+        .video-box iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+        .tag { background: #f1f5f9; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; margin: 4px; display: inline-block; border: 1px solid #cbd5e1; font-weight: 500; }
+        .project-card { border: 1px solid #e2e8f0; padding: 20px; border-radius: 8px; background: #fff; margin-top: 15px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>IMAAD PETERSEN [cite: 1]</h1>
-    <p>ICT Applications Development Student [cite: 4, 51]</p>
-    <a href="https://www.linkedin.com/in/YOUR-PROFILE" class="btn linkedin">LinkedIn</a>
-    <a href="cv.pdf" class="btn download" download>Download CV PDF</a>
+    <h1>IMAAD PETERSEN</h1>
+    <p style="font-size: 1.2rem; margin: 10px 0;">ICT Applications Development Student</p>
+    <p style="opacity: 0.9;">Cape Town, South Africa | petersenimaad3@gmail.com</p>
+    
+    <a href="https://www.linkedin.com/in/YOUR-PROFILE-NAME" class="btn linkedin" target="_blank">Connect on LinkedIn</a>
+    
+    <a href="cv.pdf" class="btn download" download>Download PDF CV</a>
 </header>
 
 <div class="container">
     <h2>Professional Summary</h2>
-    <p>Motivated ICT student seeking WIL placement[cite: 4]. Skilled in PHP, JavaScript, HTML, CSS, and Java[cite: 4, 8].</p>
+    <p>Motivated ICT (Applications Development) student seeking WIL placement to apply programming skills in PHP, JavaScript, HTML, CSS, and Java. Eager to contribute to a development team while gaining practical experience.</p>
 
-    <h2>Technical Skills</h2>
-    <p>
-        <strong>Languages:</strong> <span class="tag">Java</span><span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">HTML/CSS</span> [cite: 8, 9]<br>
-        <strong>Tools:</strong> <span class="tag">Laravel</span><span class="tag">WAMP</span><span class="tag">MySQL</span> [cite: 11, 12, 14]
-    </p>
+    <h2>Technical Stack</h2>
+    <div>
+        <strong>Languages:</strong> 
+        <span class="tag">Java</span><span class="tag">JavaScript</span><span class="tag">PHP</span><span class="tag">HTML</span><span class="tag">CSS</span>
+    </div>
+    <div style="margin-top:10px;">
+        <strong>Frameworks & Tools:</strong> 
+        <span class="tag">Laravel</span><span class="tag">WAMP</span><span class="tag">MySQL</span><span class="tag">Git / GitHub</span>
+    </div>
 
-    <h2>Project: VW MK1 Spares</h2>
-    <p>Designed and developed a responsive e-commerce website for Volkswagen MK1 spare parts using HTML, CSS, and JavaScript[cite: 39, 40, 41].</p>
+    <h2>Featured Project</h2>
+    <div class="project-card">
+        <h3 style="margin-top:0; color:#1e293b;">VW MK1 Spares & Accessories E-Commerce</h3>
+        <p>Designed and developed a responsive e-commerce website using HTML, CSS, and JavaScript. Features include product listings, pricing displays, and an interactive front-end for improved user navigation.</p>
+    </div>
 
     <h2>Video CV</h2>
     <div class="video-box">
-        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+        <iframe src="https://www.youtube.com/embed/Np33cObe6Uc" allowfullscreen></iframe>
     </div>
 
     <h2>Education & Experience</h2>
     <ul>
-        <li><strong>Diploma ICT (App Dev):</strong> CPUT (2023 - Present) [cite: 47, 51]</li>
-        <li><strong>Seasonal Cricket Coach:</strong> Under the Sun (2024 - 2025) [cite: 25, 26, 27]</li>
-        <li><strong>Seasonal Cashier:</strong> Howler Events (2020 - 2025) [cite: 29, 30, 31]</li>
+        <li><strong>Diploma ICT (Applications Development):</strong> CPUT (2023 - Present)</li>
+        <li><strong>Seasonal Cricket Coach:</strong> Under the Sun Cricket Coaching (2024 - 2025)</li>
+        <li><strong>Seasonal Cashier:</strong> Howler Events (2020 - 2025)</li>
+        <li><strong>Event Staff:</strong> R&S Catering</li>
     </ul>
 </div>
 
