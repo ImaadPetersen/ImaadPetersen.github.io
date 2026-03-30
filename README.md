@@ -15,11 +15,6 @@ I am actively seeking a **Work Integrated Learning (WIL)** placement for 2026 to
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-## 💻 Featured Project: VW MK1 Spares E-Commerce
-* This project serves as a primary artefact for my Portfolio of Evidence (POE)[
-* **Technologies:** HTML, CSS, and JavaScript
-* **Key Learning:** I implemented product listings, pricing displays, and an interactive front-end for improved user navigation
-* **Reflection:** This project demonstrates my ability to style websites using custom CSS for a clean, industry-focused design
 ## 📊 POE Reflection
 As per the CPUT POE brief, this repository demonstrates:
 1. **Collect:** Organized technical artefacts from my course of study
