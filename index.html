@@ -5,47 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imaad Petersen | Portfolio</title>
     <style>
-        :root { --primary: #2563eb; --dark: #1e293b; --light: #f8fafc; }
-        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 40px 20px; color: var(--dark); background-color: #fff; }
+        :root { --primary: #2563eb; --dark: #1e293b; --light: #f8fafc; --accent: #0077b5; }
+        body { font-family: 'Segoe UI', sans-serif; line-height: 1.6; max-width: 900px; margin: 0 auto; padding: 40px 20px; color: var(--dark); background-color: #fff; }
         header { text-align: center; padding-bottom: 40px; border-bottom: 2px solid var(--light); }
-        .btn-linkedin { display: inline-block; background: #0077b5; color: white; padding: 10px 20px; border-radius: 5px; text-decoration: none; margin-top: 15px; font-weight: bold; }
+        .contact-info { color: #64748b; margin: 10px 0; font-size: 0.9rem; }
+        .btn-linkedin { display: inline-block; background: var(--accent); color: white; padding: 10px 25px; border-radius: 5px; text-decoration: none; margin-top: 15px; font-weight: bold; transition: 0.3s; }
+        .btn-linkedin:hover { opacity: 0.9; transform: translateY(-2px); }
         .section { margin: 40px 0; }
-        h2 { color: var(--primary); border-left: 5px solid var(--primary); padding-left: 15px; text-transform: uppercase; font-size: 1.2rem; }
-        .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        .tag { background: var(--light); padding: 5px 12px; border-radius: 15px; font-size: 0.9rem; margin-right: 5px; display: inline-block; }
-        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; background: #000; border-radius: 8px; }
+        h2 { color: var(--primary); border-left: 5px solid var(--primary); padding-left: 15px; text-transform: uppercase; font-size: 1.1rem; letter-spacing: 1px; }
+        .tag { background: var(--light); padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; margin: 4px; display: inline-block; border: 1px solid #e2e8f0; }
+        .project-card { background: var(--light); padding: 20px; border-radius: 8px; border-left: 4px solid var(--primary); }
+        .video-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; background: #000; border-radius: 8px; margin-top: 20px; }
         .video-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        ul { padding-left: 20px; }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>[Imaad Petersen]</h1>
-        <p>Short, punchy description of what you do (e.g., Full Stack Developer & Tech Enthusiast)</p>
-        <a href="https://linkedin.com/in/YOUR-PROFILE" class="btn-linkedin" target="_blank">View LinkedIn Profile</a>
+        <h1>IMAAD PETERSEN</h1>
+        <p><strong>ICT Applications Development Student</strong></p>
+        <div class="contact-info">
+            Cape Town, South Africa | petersenimaad3@gmail.com
+        </div>
+        <a href="https://linkedin.com/in/YOUR-PROFILE-NAME" class="btn-linkedin" target="_blank">Connect on LinkedIn</a>
     </header>
 
     <div class="section">
-        <h2>Tech Stack & Languages</h2>
-        <div class="grid">
-            <div>
-                <strong>Programs/Tools:</strong><br>
-                <span class="tag">VS Code</span> <span class="tag">Docker</span> <span class="tag">Git</span>
-            </div>
-            <div>
-                <strong>Languages:</strong><br>
-                <span class="tag">Python</span> <span class="tag">JavaScript</span> <span class="tag">HTML/CSS</span>
-            </div>
+        <h2>Professional Summary</h2>
+        <p>Motivated ICT student seeking WIL placement to apply programming skills in PHP, JavaScript, HTML, CSS, and Java. Eager to contribute to a development team while gaining practical experience.</p>
+    </div>
+
+    <div class="section">
+        <h2>Technical Stack</h2>
+        <div>
+            <strong>Languages:</strong>
+            <span class="tag">Java</span> <span class="tag">JavaScript</span> <span class="tag">PHP</span> <span class="tag">HTML</span> <span class="tag">CSS</span>
+        </div>
+        <div style="margin-top:15px;">
+            <strong>Frameworks & Tools:</strong>
+            <span class="tag">Laravel</span> <span class="tag">WAMP</span> <span class="tag">MySQL</span> <span class="tag">Git/GitHub</span>
         </div>
     </div>
 
     <div class="section">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Project Alpha:</strong> A brief 1-sentence description of what you built.</li>
-            <li><strong>Project Beta:</strong> Another short description highlighting a key tool used.</li>
-        </ul>
+        <h2>Key Project</h2>
+        <div class="project-card">
+            <h3>VW MK1 Spares E-Commerce</h3>
+            <p>Designed and developed a responsive website for Volkswagen MK1 parts. Implemented product listings and interactive front-end functionality.</p>
+            <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+        </div>
     </div>
 
     <div class="section">
@@ -53,6 +62,12 @@
         <div class="video-container">
             <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
         </div>
+    </div>
+
+    <div class="section">
+        <h2>Education</h2>
+        <p><strong>Diploma in ICT (Applications Development)</strong><br>
+        CPUT | 2023 - Present</p>
     </div>
 
 </body>
