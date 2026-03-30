@@ -1,10 +1,12 @@
-# Digital Portfolio: Imaad Petersen
+# 🚀 Digital Portfolio: Imaad Petersen
 
 
-## 👤 About Me https://imaadpetersen.github.io/
-I am a motivated ICT student currently in my third year of studies at the Cape Peninsula University of Technology (CPUT). My focus is on **Applications Development**, where I enjoy solving complex problems through clean, efficient code.
+## 👤 About Me
+* **Portfolio Website:** [imaadpetersen.github.io](https://imaadpetersen.github.io/)
+  
+I am a motivated ICT student currently in my third year of studies at the Cape Peninsula University of Technology (CPUT). ]My focus is on **Applications Development**, where I enjoy solving complex problems through clean, efficient code.
 
-I am actively seeking a **Work Integrated Learning (WIL)** placement for 2026 to apply my technical background in a professional environment
+I am actively seeking a **Work Integrated Learning (WIL)** placement for 2026 to apply my technical background in a professional environment.
 
 ## 🛠️ Technical Stack
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
@@ -15,11 +17,17 @@ I am actively seeking a **Work Integrated Learning (WIL)** placement for 2026 to
 ![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
 ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
+## 🎥 Interview Video & Presentation
+As part of my digital portfolio, I have prepared a video introduction covering my background, technical skills, and career goals.
+
+[Watch my Video CV / Interview Presentation here](https://www.youtube.com/embed/Np33cObe6Uc)
+
+
 ## 📊 POE Reflection
 As per the CPUT POE brief, this repository demonstrates:
-1. **Collect:** Organized technical artefacts from my course of study
-2. **Reflect:** A structured evaluation of my development skills
-3. **Connect:** Identifying the link between my studies and professional WIL requirements
+1.**Collect:** Organized technical artefacts from my course of study.
+2. **Reflect:** A structured evaluation of my development skills and growth
+3. ]**Connect:** Identifying the link between academic studies and professional WIL requirements.
 
 ## 📫 Contact
 * **Email:** petersenimaad3@gmail.com 
