@@ -5,50 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imaad Petersen | Professional Portfolio</title>
     <style>
-        body { font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; max-width: 900px; margin: auto; padding: 20px; color: #1e293b; background-color: #f8fafc; }
-        header { background: #0f172a; color: white; padding: 50px 20px; text-align: center; border-radius: 16px; margin-bottom: 30px; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1); }
-        .container { background: white; padding: 40px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.05); }
-        
-        h2 { color: #2563eb; border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; margin-top: 40px; text-transform: uppercase; font-size: 1rem; letter-spacing: 1.5px; font-weight: 700; }
-        h3 { color: #1e293b; margin-bottom: 8px; }
+        :root {
+            --primary: #0f172a;
+            --accent: #2563eb;
+            --text-main: #1e293b;
+            --text-muted: #64748b;
+            --bg: #f8fafc;
+        }
 
-        .btn { display: inline-block; padding: 12px 24px; margin: 10px 5px; border-radius: 8px; text-decoration: none; font-weight: 600; color: white; transition: all 0.3s ease; border: none; cursor: pointer; font-size: 0.9rem; }
-        .linkedin { background: #0077b5; }
-        .download { background: #059669; }
-        .btn:hover { opacity: 0.9; transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.15); }
+        body { font-family: 'Inter', 'Segoe UI', Roboto, sans-serif; line-height: 1.6; max-width: 900px; margin: auto; padding: 20px; color: var(--text-main); background-color: var(--bg); }
         
-        /* THE VIDEO FIX: Centered and size-constrained */
-        .video-section { text-align: center; margin: 40px 0; }
+        header { background: var(--primary); color: white; padding: 50px 20px; text-align: center; border-radius: 20px; margin-bottom: 30px; box-shadow: 0 10px 30px -5px rgba(0,0,0,0.2); }
+        
+        .container { background: white; padding: 50px; border-radius: 20px; box-shadow: 0 4px 25px rgba(0,0,0,0.05); }
+        
+        h2 { color: var(--accent); border-bottom: 2px solid #f1f5f9; padding-bottom: 12px; margin-top: 40px; text-transform: uppercase; font-size: 0.9rem; letter-spacing: 2px; font-weight: 800; display: flex; align-items: center; gap: 10px; }
+        
+        /* ICONS STYLING */
+        .tech-icon { height: 20px; vertical-align: middle; margin-right: 8px; }
+        .tech-pill { display: inline-flex; align-items: center; background: #f1f5f9; padding: 8px 15px; border-radius: 10px; font-size: 0.85rem; margin: 5px; font-weight: 600; color: var(--primary); border: 1px solid #e2e8f0; }
+
+        .btn { display: inline-block; padding: 14px 28px; margin: 10px 5px; border-radius: 10px; text-decoration: none; font-weight: 700; color: white; transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1); border: none; cursor: pointer; font-size: 0.9rem; }
+        .linkedin { background: #0077b5; }
+        .download { background: #16a34a; }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 8px 15px rgba(0,0,0,0.2); opacity: 0.95; }
+        
+        /* VIDEO FIX: Constrained size for professional look */
+        .video-wrapper { text-align: center; margin: 30px 0; }
         .video-container { 
-            max-width: 450px; /* Constrains the video size perfectly */
+            max-width: 400px; /* Locked size */
             margin: 0 auto; 
-            border-radius: 12px; 
+            border-radius: 15px; 
             overflow: hidden; 
-            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 20px 40px -10px rgba(0,0,0,0.3);
             background: #000;
-            border: 4px solid #fff;
+            border: 5px solid #fff;
         }
         video { width: 100%; display: block; }
 
-        .tag { background: #eff6ff; color: #1e40af; padding: 6px 16px; border-radius: 20px; font-size: 0.8rem; margin: 4px; display: inline-block; border: 1px solid #bfdbfe; font-weight: 600; }
-        .card { border: 1px solid #e2e8f0; padding: 25px; border-radius: 12px; background: #fff; margin-top: 15px; position: relative; }
-        .date { color: #64748b; font-size: 0.85rem; font-weight: 600; }
+        .card { border: 1px solid #e2e8f0; padding: 25px; border-radius: 15px; background: #fff; margin-top: 15px; transition: 0.3s; }
+        .card:hover { border-color: var(--accent); box-shadow: 0 5px 15px rgba(0,0,0,0.03); }
         
+        .date { color: var(--accent); font-size: 0.8rem; font-weight: 800; text-transform: uppercase; }
         .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-        ul { padding-left: 20px; color: #334155; }
-        li { margin-bottom: 8px; }
+        ul { padding-left: 20px; }
+        li { margin-bottom: 10px; }
 
-        @media (max-width: 600px) { .grid { grid-template-columns: 1fr; } }
+        @media (max-width: 650px) { .grid { grid-template-columns: 1fr; } .container { padding: 25px; } }
     </style>
 </head>
 <body>
 
 <header>
-    <h1 style="margin:0; font-size: 2.5rem; letter-spacing: -1px;">IMAAD PETERSEN</h1>
-    <p style="font-size: 1.25rem; margin: 10px 0; font-weight: 300; color: #94a3b8;">Applications Development | ICT Student</p>
-    <p style="font-size: 0.9rem; color: #cbd5e1;">📍 Cape Town, South Africa • 📧 petersenimaad3@gmail.com • 📞 068 061 8314</p>
+    <h1 style="margin:0; font-size: 2.8rem; letter-spacing: -1.5px;">IMAAD PETERSEN</h1>
+    <p style="font-size: 1.2rem; margin: 12px 0; font-weight: 300; opacity: 0.8;">ICT Applications Development Student</p>
+    <p style="font-size: 0.9rem; letter-spacing: 0.5px;">📍 Cape Town, South Africa • 📧 petersenimaad3@gmail.com • 📞 068 061 8314</p>
     
-    <div style="margin-top: 25px;">
+    <div style="margin-top: 30px;">
         <a href="https://www.linkedin.com/in/imaad-petersen-b02ab22aa" class="btn linkedin" target="_blank">LinkedIn Profile</a>
         <a href="CV.pdf.pdf" class="btn download" download>Download Full CV</a>
     </div>
@@ -57,78 +70,99 @@
 <div class="container">
     
     <h2>Professional Summary</h2>
-    <p>Driven 3rd-year <strong>ICT Applications Development</strong> student at CPUT. Focused on building robust, scalable applications with a clean-code approach. Currently seeking a Work Integrated Learning (WIL) placement to contribute technical expertise in full-stack web environments while solving real-world business challenges.</p>
+    <p>I am a highly motivated <strong>ICT (Applications Development)</strong> student currently in my third year of studies (2023 - Present) at the <strong>Cape Peninsula University of Technology (CPUT)</strong>. My core focus lies in solving complex problems through clean, efficient code and structured application design. I am actively seeking a <strong>Work Integrated Learning (WIL)</strong> placement to apply my technical background and programming expertise within a professional development team.</p>
 
-    <h2>Technical Expertise</h2>
+    <h2>Technical Stack</h2>
     <div class="card">
-        <strong>Programming Languages:</strong><br>
-        <span class="tag">Java</span> <span class="tag">PHP</span> <span class="tag">JavaScript</span> <span class="tag">HTML5</span> <span class="tag">CSS3</span>
-        <br><br>
-        <strong>Frameworks & Databases:</strong><br>
-        <span class="tag">Laravel</span> <span class="tag">MySQL</span> <span class="tag">WAMP Server</span> <span class="tag">Git/GitHub</span>
+        <div class="tech-pill"><img class="tech-icon" src="https://cdn.simpleicons.org/openjdk/ED8B00"> Java</div>
+        <div class="tech-pill"><img class="tech-icon" src="https://cdn.simpleicons.org/php/777BB4"> PHP</div>
+        <div class="tech-pill"><img class="tech-icon" src="https://cdn.simpleicons.org/javascript/F7DF1E"> JavaScript</div>
+        <div class="tech-pill"><img class="tech-icon" src="https://cdn.simpleicons.org/laravel/FF2D20"> Laravel</div>
+        <div class="tech-pill"><img class="tech-icon" src="https://cdn.simpleicons.org/mysql/4479A1"> MySQL</div>
+        <div class="tech-pill"><img class="tech-icon" src="https://cdn.simpleicons.org/html5/E34F26"> HTML5</div>
+        <div class="tech-pill"><img class="tech-icon" src="https://cdn.simpleicons.org/css3/1572B6"> CSS3</div>
+        <div class="tech-pill"><img class="tech-icon" src="https://cdn.simpleicons.org/wampserver/007EBB"> WAMP</div>
     </div>
 
     <h2>Mock Interview Video</h2>
-    <div class="video-section">
+    <div class="video-wrapper">
         <div class="video-container">
             <video controls>
                 <source src="MockInterviewVideoImaadPetersen.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
         </div>
-        <p style="font-size: 0.85rem; color: #64748b; margin-top: 10px;"><i>Work Readiness Presentation (PRP372S)</i></p>
     </div>
 
-    <h2>Core Projects</h2>
+    <h2>Featured Technical Project</h2>
     <div class="card">
-        <span class="date">FEB 2020 — JULY 2023</span>
-        <h3>VW MK1 Spares & Accessories E-Commerce</h3>
-        <p>Developed a custom e-commerce solution tailored for the automotive niche. Applied logic for product filtering, responsive UI design, and interactive customer navigation using the core web stack.</p>
-        <p><strong>Reflect & Substantiate:</strong> This project highlights my ability to bridge the gap between user requirements and functional code, managing the transition from conceptual UI design to a live, navigable system.</p>
+        <span class="date">Feb 2020 - July 2023</span>
+        <h3 style="margin: 10px 0;">VW MK1 Spares & Accessories E-Commerce</h3>
+        <p>Designed and developed a responsive e-commerce website for automotive spare parts and accessories. Features include product listings, pricing displays, and a structured layout for seamless navigation.</p>
+        <p><strong>Reflect & Substantiate:</strong> Building this site allowed me to apply theoretical knowledge of JavaScript to a real-world problem. This project demonstrates my ability to manage a full development lifecycle, from UI design to functional logic.</p>
     </div>
 
-    <h2>Professional Experience</h2>
+    <h2>Work Experience</h2>
     <div class="grid">
         <div class="card">
-            <span class="date">2024 — 2025</span>
+            <span class="date">Oct 2024 – Jan 2025</span>
             <h3>Seasonal Cricket Coach</h3>
             <p><strong>Under the Sun Cricket Coaching</strong></p>
             <ul>
-                <li>Developed specialized player skills and team strategy.</li>
-                <li>Managed performance assessments for team selection.</li>
+                <li>Planned practice sessions and developed player skills.</li>
+                <li>Conducted performance assessments for team selection.</li>
             </ul>
         </div>
         <div class="card">
-            <span class="date">2020 — 2025</span>
+            <span class="date">June 2020 – May 2025</span>
             <h3>Seasonal Cashier</h3>
             <p><strong>Howler Events</strong></p>
             <ul>
-                <li>Managed high-volume financial transactions.</li>
-                <li>Ensured secure payment processing in high-pressure environments.</li>
+                <li>Managed high-volume sales and handled secure payments.</li>
+                <li>Maintained service standards in high-pressure environments.</li>
             </ul>
         </div>
     </div>
 
+    <div class="card">
+        <span class="date">Additional Experience</span>
+        <h3>Event Staff</h3>
+        <p><strong>R&S Catering</strong></p>
+        <p>Coordinated table setups and food arrangements for formal events while providing courteous, professional service to all guests.</p>
+    </div>
+
     <h2>Education</h2>
-    <div class="card" style="border-left: 4px solid #2563eb;">
-        <h3>Diploma in ICT: Applications Development</h3>
-        <p><strong>Cape Peninsula University of Technology</strong> | 2023 — Present</p>
-        <hr style="border: 0; border-top: 1px solid #f1f5f9; margin: 15px 0;">
-        <h3>National Senior Certificate (Matric)</h3>
-        <p><strong>Livingstone High School</strong> | Graduated 2022</p>
+    <div class="card">
+        <p><strong>Diploma in ICT: Applications Development</strong><br>
+        Cape Peninsula University of Technology | 2023 - Present</p>
+        <hr style="border:0; border-top:1px solid #eee; margin:15px 0;">
+        <p><strong>National Senior Certificate (Matric)</strong><br>
+        Livingstone High School | 2018 - 2022</p>
     </div>
 
     <h2>Professional References</h2>
-    <div class="grid">
-        <p><strong>Sazi</strong><br>Events Manager, Howler<br>📞 071 489 9861</p>
-        <p><strong>Patrick Van Niekerk</strong><br>Head Coach, Under The Sun<br>📞 081 335 7696</p>
-        <p><strong>Rijana Petersen</strong><br>Owner, R&S Catering<br>📞 081 430 4801</p>
+    <div class="grid" style="font-size: 0.9rem;">
+        <div>
+            <strong>Sazi</strong><br>
+            Events Manager, Howler Events<br>
+            📱 071 489 9861
+        </div>
+        <div>
+            <strong>Patrick Van Niekerk</strong><br>
+            Head Coach, Under The Sun<br>
+            📱 081 335 7696
+        </div>
+        <div>
+            <strong>Rijana Petersen</strong><br>
+            Owner, R&S Catering<br>
+            📱 081 430 4801
+        </div>
     </div>
 
 </div>
 
-<footer style="text-align: center; padding: 40px; color: #94a3b8; font-size: 0.8rem;">
-    &copy; 2026 Imaad Petersen. All Rights Reserved.
+<footer style="text-align: center; padding: 40px; color: var(--text-muted); font-size: 0.8rem;">
+    &copy; 2026 Imaad Petersen | CPUT ICT Portfolio
 </footer>
 
 </body>
