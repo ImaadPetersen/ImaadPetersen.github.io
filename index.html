@@ -13,8 +13,11 @@
         .linkedin { background: #0077b5; }
         .download { background: #16a34a; }
         .btn:hover { opacity: 0.9; transform: translateY(-2px); }
-        .video-box { position: relative; padding-bottom: 56.25%; height: 0; margin: 25px 0; border-radius: 12px; overflow: hidden; background: #000; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1); }
-        .video-box iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none; }
+        
+        /* Updated Video Styling */
+        .video-container { margin: 25px 0; border-radius: 12px; overflow: hidden; box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1); background: #000; }
+        video { width: 100%; display: block; border-radius: 12px; }
+
         .tag { background: #f1f5f9; padding: 6px 14px; border-radius: 20px; font-size: 0.85rem; margin: 4px; display: inline-block; border: 1px solid #cbd5e1; font-weight: 500; }
         .project-card { border: 1px solid #e2e8f0; padding: 20px; border-radius: 8px; background: #fff; margin-top: 15px; }
         ul { padding-left: 20px; }
@@ -28,7 +31,7 @@
     <p style="font-size: 1.2rem; margin: 10px 0;">ICT Applications Development Student</p>
     <p style="opacity: 0.9;">Cape Town, South Africa | petersenimaad3@gmail.com</p>
     
-    <a href="www.linkedin.com/in/imaad-petersen-b02ab22aa" class="btn linkedin" target="_blank">Connect on LinkedIn</a>
+    <a href="https://www.linkedin.com/in/imaad-petersen-b02ab22aa" class="btn linkedin" target="_blank">Connect on LinkedIn</a>
     
     <a href="CV.pdf.pdf" class="btn download" download>Download CV</a>
 </header>
@@ -50,18 +53,21 @@
     <h2>Featured Project</h2>
     <div class="project-card">
         <h3 style="margin-top:0; color:#1e293b;">VW MK1 Spares & Accessories E-Commerce</h3>
-       <p>Designed and developed a responsive e-commerce website using HTML, CSS, and JavaScript. Features include product listings, pricing displays, and an interactive front-end for improved user navigation.</p>
-        
+        <p>Designed and developed a responsive e-commerce website using HTML, CSS, and JavaScript. Features include product listings, pricing displays, and an interactive front-end for improved user navigation.</p>
     </div>
-                    <div class="section">
+
+    <h2>Mock Interview Video</h2>
+    <div class="video-container">
+        <video controls>
+            <source src="MockInterviewVideoImaadPetersen.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
     <h2>Learning Reflection (POE)</h2>
     <div class="project-card">
-        <p><strong>Reflect & Substantiate:</strong> Building the VW MK1 E-commerce site allowed me to apply theoretical knowledge of JavaScript to a real-world problem[cite: 4, 7]. This project demonstrates my ability to manage a full development lifecycle, from UI design to functional logic[cite: 17, 18, 19].</p>
+        <p><strong>Reflect & Substantiate:</strong> Building the VW MK1 E-commerce site allowed me to apply theoretical knowledge of JavaScript to a real-world problem. This project demonstrates my ability to manage a full development lifecycle, from UI design to functional logic.</p>
     </div>
-                        
-<video width="600" controls src="MockInterviewVideoImaadPetersen.mp4">
-</video>
-
 
     <h2>Education & Experience</h2>
     <ul>
@@ -75,4 +81,4 @@
 </body>
 </html>
 
-
+                        
