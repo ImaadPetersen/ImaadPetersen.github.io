@@ -1,34 +1,74 @@
 # 🚀 Digital Portfolio: Imaad Petersen
 
+**📍 Cape Town, South Africa** **📧 petersenimaad3@gmail.com** | **📞 068 061 8314**
 
-## 👤 About Me
-* **Portfolio Website:** [imaadpetersen.github.io](https://imaadpetersen.github.io/)
-  
-I am a motivated ICT student currently in my third year of studies at the Cape Peninsula University of Technology (CPUT). ]My focus is on **Applications Development**, where I enjoy solving complex problems through clean, efficient code.
+-----
 
-I am actively seeking a **Work Integrated Learning (WIL)** placement for 2026 to apply my technical background in a professional environment.
+## 👤 Professional Summary
+
+I am a highly motivated **ICT (Applications Development)** student currently in my third year of studies (**2023 - Present**) at the **Cape Peninsula University of Technology (CPUT)**. My core focus lies in solving complex problems through clean, efficient code and structured application design.
+
+I am actively seeking a **Work Integrated Learning (WIL)** placement to apply my technical background and programming expertise within a professional development team.
+
+-----
 
 ## 🛠️ Technical Stack
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
-![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-## 🎥 Interview Video & Presentation
-As part of my digital portfolio, I have prepared a video introduction covering my background, technical skills, and career goals.
+      
 
-[Watch my Video CV / Interview Presentation here](https://www.youtube.com/embed/Np33cObe6Uc)
+### **Core Competencies**
+
+  * **Languages:** Java, JavaScript, PHP, HTML, CSS
+  * **Frameworks & Tools:** Laravel, WAMP
+  * **Databases:** MySQL
+  * **Expertise:** Programming, Web Development, Database Management
+
+-----
+
+## 💼 Project & Work Experience
+
+### **Technical Project: E-Commerce Platform (VW MK1 Spares)**
+
+**Feb 2020 - July 2023**
+
+  * Designed and developed a responsive e-commerce website for automotive spare parts and accessories.
+  * **Technologies:** HTML, CSS, JavaScript.
+  * Implemented product listings, pricing displays, and a structured layout for seamless navigation.
+  * Built interactive front-end functionality to enhance the user experience.
+  * Applied custom CSS to achieve a clean, professional, and industry-focused design.
+
+### **Professional Experience**
+
+  * **Seasonal Cricket Coach** | Under the Sun Cricket Coaching (Oct 2024 – Jan 2025)
+      * Planned practice sessions and developed specialized player skills and team strategies.
+      * Conducted performance assessments for strategic team selection.
+  * **Seasonal Cashier** | Howler Events (June 2020 – May 2025)
+      * Managed high-volume sales, verified digital armbands, and handled secure payments.
+      * Maintained exceptional service standards in high-pressure environments.
+  * **Event Staff** | R\&S Catering
+      * Coordinated table setups and food arrangements for formal events.
+      * Provided courteous, professional service to all guests.
+
+-----
+
+## 🎓 Education
+
+  * **Diploma in ICT: Applications Development** | CPUT (2023 - Present)
+  * **Matric Certificate** | Livingstone High School (2018 - 2022)
+
+-----
+
+## 📞 Professional References
+
+  * **Sazi** (Events Manager, Howler Events) | 📱 071 489 9861
+  * **Patrick Van Niekerk** (Head Coach, Under The Sun) | 📱 081 335 7696
+  * **Rijana Petersen** (Owner, R\&S Catering) | 📱 081 430 4801
+
+-----
 
 
-## 📊 POE Reflection
-As per the CPUT POE brief, this repository demonstrates:
-1.**Collect:** Organized technical artefacts from my course of study.
-2. **Reflect:** A structured evaluation of my development skills and growth
-3. ]**Connect:** Identifying the link between academic studies and professional WIL requirements.
 
-## 📫 Contact
-* **Email:** petersenimaad3@gmail.com 
-* **Location:** Cape Town, South Africa 
+
+
+
+
