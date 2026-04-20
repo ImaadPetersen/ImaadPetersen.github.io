@@ -1,7 +1,7 @@
 # IMAAD PETERSEN
 ### ICT Applications Development Student | 📍 Cape Town, South Africa | 📧 petersenimaad3@gmail.com | 📞 068 061 8314
 
-![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white) [**LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | ![CV](https://img.shields.io/badge/Download-CV-16a34a?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white) [**Download Full CV (PDF)**](CV.pdf.pdf)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) [![Download CV](https://img.shields.io/badge/Download-CV-16a34a?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](Imaad_Petersen_CV%20(2).pdf)
 
 ---
 
@@ -16,6 +16,7 @@ Motivated ICT (Applications Development) student seeking WIL placement to apply 
 ---
 
 ## 🎥 Mock Interview Video
+> Note to Moderator: This video serves as evidence for the PRP370S Work Readiness requirement.
 
 <div align="center">
   <video width="450" controls style="border-radius: 10px; border: 2px solid #2563eb;">
@@ -33,13 +34,13 @@ Motivated ICT (Applications Development) student seeking WIL placement to apply 
 ---
 
 ## 💼 Work Experience
-* **Seasonal Cricket Coach** | Under the Sun Cricket Coaching | Oct 2024 – Jan 2025
-    * Planned practice sessions, developed player skills, and team strategies.
+* **SEASONAL CRICKET COACH** | Under the Sun Cricket Coaching | Oct 2024 – Jan 2025
+    * Planned practice sessions, developed player skills and team strategies.
     * Assessed individual strengths for team selection.
-* **Seasonal Cashier** | Howler Events | June 2020 – May 2025
-    * Processed sales, scanned items, verified armbands, and handled payments.
-    * Provided friendly service in a high-pressure environment.
-* **Event Staff** | R&S Catering
+* **SEASONAL CASHIER** | Howler Events | June 2020 – May 2025
+    * Processed sales, scanned items, verified armbands, handled payments.
+    * Provided friendly service in high-pressure environment.
+* **EVENT STAFF** | R&S Catering
     * Assisted with table setup and food arrangement.
     * Provided courteous service to guests.
 
