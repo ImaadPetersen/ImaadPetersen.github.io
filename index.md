@@ -1,8 +1,7 @@
 # IMAAD PETERSEN
 ### ICT Applications Development Student | 📍 Cape Town, South Africa | 📧 petersenimaad3@gmail.com | 📞 068 061 8314
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) [![Download CV](https://img.shields.io/badge/Download-CV-16a34a?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](Imaad_Petersen_CV%20(2).pdf)
-
+[**LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [**Download Full CV (PDF)**](Imaad_Petersen_CV%20(2).pdf)
 ---
 
 ## 📄 Professional Summary
