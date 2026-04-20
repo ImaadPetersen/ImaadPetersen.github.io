@@ -1,8 +1,7 @@
 # IMAAD PETERSEN
 ### ICT Applications Development Student | 📍 Cape Town, South Africa | 📧 petersenimaad3@gmail.com | 📞 068 061 8314
 
-[**LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [**Download Full CV (PDF)**](Imaad_Petersen_CV%20(2).pdf)
----
+[**LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [**Download Full CV (PDF)**](CV.pdf)
 
 ## 📄 Professional Summary
 Motivated ICT (Applications Development) student seeking WIL placement to apply programming skills in PHP, JavaScript, HTML, CSS, Java. Eager to contribute to a development team while gaining practical experience. My core focus lies in solving complex problems through clean, efficient code and structured application design.
