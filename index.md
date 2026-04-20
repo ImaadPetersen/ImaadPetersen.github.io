@@ -1,15 +1,5 @@
-To convert your HTML portfolio into a format that satisfies the **PRP370S rubric**, I have transformed it into a clean, professional **Markdown (MD)** layout.
 
-Since your assessment requires **Evidence of Markdown** and **STAR reflections**, I have integrated the reflections we discussed directly into the document. 
 
-### Instructions:
-1. Create a file named `README.md` or `index.md` in your GitHub repository.
-2. Paste the code below into that file.
-3. Because GitHub Pages supports "GitHub Flavored Markdown," this will automatically render as a clean website with your video and links.
-
----
-
-```markdown
 # IMAAD PETERSEN
 **ICT Applications Development Student** 📍 Cape Town, South Africa • 📧 petersenimaad3@gmail.com • 📞 068 061 8314
 
