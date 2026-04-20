@@ -15,7 +15,6 @@ Motivated ICT (Applications Development) student seeking WIL placement to apply 
 ---
 
 ## 🎥 Mock Interview Video
-> Note to Moderator: This video serves as evidence for the PRP370S Work Readiness requirement.
 
 <div align="center">
   <video width="450" controls style="border-radius: 10px; border: 2px solid #2563eb;">
