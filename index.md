@@ -1,4 +1,7 @@
 <style>
+  /* Import Font Awesome Icons */
+  @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
+
   /* Professional Color Palette & Typography */
   :root {
     --primary-color: #0f172a;    /* Dark Navy Header Text */
@@ -38,6 +41,12 @@
     font-size: 1.4rem;
   }
 
+  /* Icon Styling */
+  i.fa-solid, i.fa-brands {
+    color: var(--accent-color);
+    margin-right: 8px;
+  }
+
   /* Links Styling */
   a {
     color: var(--accent-color);
@@ -75,18 +84,18 @@
 # IMAAD PETERSEN
 **ICT Applications Development Student**
 
-📍 Cape Town, South Africa &nbsp;•&nbsp; 📧 petersenimaad3@gmail.com &nbsp;•&nbsp; 📞 068 061 8314
+<i class="fa-solid fa-location-dot"></i> Cape Town, South Africa &nbsp;•&nbsp; <i class="fa-solid fa-envelope"></i> petersenimaad3@gmail.com &nbsp;•&nbsp; <i class="fa-solid fa-phone"></i> 068 061 8314
 
-[**LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [**Download Full CV (PDF)**](Imaad_Petersen_CV (2).pdf)
+[<i class="fa-brands fa-linkedin"></i> **LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [<i class="fa-solid fa-file-arrow-down"></i> **Download Full CV (PDF)**]()
 
 ---
 
-## 📄 Professional Summary
+## <i class="fa-solid fa-id-card"></i> Professional Summary
 Motivated ICT (Applications Development) student seeking WIL placement to apply programming skills in PHP, JavaScript, HTML, CSS, Java. Eager to contribute to a development team while gaining practical experience. My core focus lies in solving complex problems through clean, efficient code and structured application design.
 
 ---
 
-## 🛠 Technical Stack
+## <i class="fa-solid fa-layer-group"></i> Technical Stack
 
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white) 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white) 
@@ -99,7 +108,7 @@ Motivated ICT (Applications Development) student seeking WIL placement to apply 
 
 ---
 
-## 🎥 Mock Interview Video
+## <i class="fa-solid fa-video"></i> Mock Interview Video
 
 <div align="center">
   <div style="max-width: 520px; background: #1e293b; border-radius: 8px; padding: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);">
@@ -112,14 +121,14 @@ Motivated ICT (Applications Development) student seeking WIL placement to apply 
 
 ---
 
-## 🎓 Education
+## <i class="fa-solid fa-graduation-cap"></i> Education
 
 * **CPUT Diploma ICT: Applications Development** | *2023 – Present*
 * **Livingstone High School** | *Matric Certificate | 2018 – 2022*
 
 ---
 
-## 💼 Work Experience
+## <i class="fa-solid fa-briefcase"></i> Work Experience
 
 ### **SEASONAL CRICKET COACH** | Under the Sun Cricket Coaching
 *Oct 2024 – Jan 2025*
@@ -137,29 +146,29 @@ Motivated ICT (Applications Development) student seeking WIL placement to apply 
 
 ---
 
-## 📞 Professional References
+## <i class="fa-solid fa-address-book"></i> Professional References
 
-* **Sazi** *(Events Manager, Howler Events)* — 📞 071 489 9861
-* **Patrick Van Niekerk** *(Head Coach, Under The Sun)* — 📞 081 335 7696
-* **Rijana Petersen** *(Owner, R&S Catering)* — 📞 081 430 4801
+* **Sazi** *(Events Manager, Howler Events)* — <i class="fa-solid fa-phone"></i> 071 489 9861
+* **Patrick Van Niekerk** *(Head Coach, Under The Sun)* — <i class="fa-solid fa-phone"></i> 081 335 7696
+* **Rijana Petersen** *(Owner, R&S Catering)* — <i class="fa-solid fa-phone"></i> 081 430 4801
 
 ---
 
-## 💡 Professional Reflections (STAR Method)
+## <i class="fa-solid fa-lightbulb"></i> Professional Reflections (STAR Method)
 
-> ### 📝 1. Reflection on Coding in Markdown
+> ### <i class="fa-solid fa-code"></i> 1. Reflection on Coding in Markdown
 > * **Situation:** To meet the requirements for my Digital Portfolio, I needed a way to present my professional background and technical skills using a lightweight markup language.
 > * **Task:** My objective was to use GitHub Flavored Markdown (GFM) to create a clear, organized, and professional CV that effectively communicates my work-readiness.
 > * **Action:** I applied Markdown syntax to structure headers, create a technical stack display, and organize my experience. I focused on making the document easy to read while ensuring all evidence was properly categorized.
 > * **Result:** I successfully created a professional-level document as per the assessment rubric. This process enhanced my understanding of how developers use Markdown for professional documentation.
 
-> ### 🎤 2. Reflection on Mock Interview Experience
+> ### <i class="fa-solid fa-microphone"></i> 2. Reflection on Mock Interview Experience
 > * **Situation:** As part of the PRP370S assessment, I participated in a mock interview to simulate a professional recruitment process in the ICT industry.
 > * **Task:** I needed to demonstrate my communication skills and technical knowledge on camera, then reflect on how this shows an evolution in learning.
 > * **Action:** I prepared by reviewing my past projects and practiced articulating my problem-solving steps. During the recording, I focused on maintaining professional body language and providing structured technical explanations.
 > * **Result:** Reviewing my performance allowed me to identify areas for improvement in my verbal delivery. This exercise bridged the gap between technical coding ability and the professional communication required for a career in development.
 
-> ### 🌐 3. Reflection on Use of GitHub Pages
+> ### <i class="fa-solid fa-globe"></i> 3. Reflection on Use of GitHub Pages
 > * **Situation:** After designing my portfolio in Markdown, I needed to make the content publicly accessible to lecturers and potential employers.
 > * **Task:** The goal was to deploy my repository to GitHub Pages to provide live evidence of my digital presence and deployment skills.
 > * **Action:** I enabled GitHub Pages in my repository settings, ensuring my README.md was correctly targeted as the source. I verified that all multimedia elements, including my interview video and links, were functioning in the live environment.
