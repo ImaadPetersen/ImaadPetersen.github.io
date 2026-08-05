@@ -86,7 +86,7 @@
 
 <i class="fa-solid fa-location-dot"></i> Cape Town, South Africa &nbsp;•&nbsp; <i class="fa-solid fa-envelope"></i> petersenimaad3@gmail.com &nbsp;•&nbsp; <i class="fa-solid fa-phone"></i> 068 061 8314
 
-[<i class="fa-brands fa-linkedin"></i> **LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [<i class="fa-solid fa-file-arrow-down"></i> **Download Full CV (PDF)**]()
+[<i class="fa-brands fa-linkedin"></i> **LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [<i class="fa-solid fa-file-arrow-down"></i> **Download Full CV (PDF)**](Imaad_Petersen_CV (2).pdf)
 
 ---
 
