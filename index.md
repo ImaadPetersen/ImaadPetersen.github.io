@@ -77,7 +77,7 @@
 
 📍 Cape Town, South Africa &nbsp;•&nbsp; 📧 petersenimaad3@gmail.com &nbsp;•&nbsp; 📞 068 061 8314
 
-[**LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [**Download Full CV (PDF)**]()
+[**LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [**Download Full CV (PDF)**](Imaad_Petersen_CV (2).pdf)
 
 ---
 
