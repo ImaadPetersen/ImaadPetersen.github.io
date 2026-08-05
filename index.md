@@ -1,3 +1,77 @@
+<style>
+  /* Professional Color Palette & Typography */
+  :root {
+    --primary-color: #0f172a;    /* Dark Navy Header Text */
+    --accent-color: #2563eb;     /* Professional Royal Blue */
+    --text-color: #334155;       /* Modern Slate Text */
+    --bg-color: #f8fafc;         /* Light Canvas Background */
+    --card-bg: #ffffff;          /* Clean White Card Background */
+    --border-color: #cbd5e1;     /* Soft Divider Border */
+  }
+
+  /* Main Body Styling */
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.65;
+    max-width: 860px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  /* Section Titles */
+  h1 {
+    color: var(--primary-color);
+    font-size: 2.25rem;
+    font-weight: 800;
+    margin-bottom: 0.2rem;
+  }
+
+  h2 {
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 8px;
+    margin-top: 2rem;
+    font-size: 1.4rem;
+  }
+
+  /* Links Styling */
+  a {
+    color: var(--accent-color);
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* Professional Callout Styling for Reflections */
+  blockquote {
+    background: var(--card-bg);
+    border-left: 4px solid var(--accent-color);
+    border-radius: 6px;
+    margin: 1.5rem 0;
+    padding: 16px 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+  }
+
+  blockquote h3 {
+    margin-top: 0;
+    color: var(--primary-color);
+  }
+
+  /* Horizontal Divider */
+  hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 2rem 0;
+  }
+</style>
+
 # IMAAD PETERSEN
 **ICT Applications Development Student**
 
@@ -90,5 +164,6 @@ Motivated ICT (Applications Development) student seeking WIL placement to apply 
 > * **Task:** The goal was to deploy my repository to GitHub Pages to provide live evidence of my digital presence and deployment skills.
 > * **Action:** I enabled GitHub Pages in my repository settings, ensuring my README.md was correctly targeted as the source. I verified that all multimedia elements, including my interview video and links, were functioning in the live environment.
 > * **Result:** By publishing to my github.io domain, I gained practical experience in the steps of e-portfolio creation. Having a live URL demonstrates my ability to take a software project from development to production.
+
 ---
 © 2026 Imaad Petersen | CPUT ICT Portfolio
