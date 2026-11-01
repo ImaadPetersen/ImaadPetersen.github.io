@@ -153,9 +153,16 @@ section.blk>h3{font-size:1.2rem}
 .foot{flex-direction:column}
 }
 @media(min-width:1400px){html{font-size:17px}.wrap{max-width:1040px}}
+
+/* keep styling intact even if a host theme adds its own heading styles */
+#pf :is(h1,h2,h3,h4){margin-top:0}
+#pf :is(h1,h2){border:0;padding:0}
+
+.star{display:inline-block;margin-left:8px;padding:2px 10px;border:1px solid currentColor;border-radius:99px;background:var(--tint);color:var(--accent);font:700 .72rem/1.6 Manrope,system-ui,sans-serif;vertical-align:middle;white-space:nowrap}
+.two-s .star{background:var(--s2tint);color:var(--s2)}
 </style>
 </head>
-<body id="top">
+<body id="top"><div id="pf">
 <div class="progress" id="bar"></div>
 <a class="skip" href="#section-1">Skip to content</a>
 <div class="mast"><div class="wrap"><span class="brand"><b>IP</b>Imaad Petersen<i>Portfolio</i></span><span class="meta">PRP370S Project Presentation 3 &middot; CPUT</span></div></div>
@@ -216,17 +223,17 @@ section.blk>h3{font-size:1.2rem}
 </div></section>
 
 <section class="blk" id="reflections"><h3>Professional reflections (STAR method)</h3>
-<div class="refl"><h4>1. Coding in Markdown</h4><dl>
+<div class="refl"><h4>1. Coding in Markdown <span class="star">STAR method</span></h4><dl>
 <dt>Situation</dt><dd>My Digital Portfolio needed a way to present my background and technical skills using a lightweight markup language.</dd>
 <dt>Task</dt><dd>Use GitHub Flavored Markdown to create a clear, organised and professional CV that shows I am work-ready.</dd>
 <dt>Action</dt><dd>I used Markdown syntax to structure headings, display my technical stack and organise my experience, keeping the document easy to read and the evidence properly categorised.</dd>
 <dt>Result</dt><dd>I produced a professional document that meets the rubric and understood better how developers use Markdown for documentation.</dd></dl></div>
-<div class="refl"><h4>2. Mock interview experience</h4><dl>
+<div class="refl"><h4>2. Mock interview experience <span class="star">STAR method</span></h4><dl>
 <dt>Situation</dt><dd>For PRP370S I took part in a mock interview that simulated a professional recruitment process in the ICT industry.</dd>
 <dt>Task</dt><dd>Demonstrate my communication skills and technical knowledge on camera, then reflect on how this shows growth.</dd>
 <dt>Action</dt><dd>I reviewed my past projects, practised explaining my problem-solving steps, and focused on professional body language and structured technical answers during the recording.</dd>
 <dt>Result</dt><dd>Watching the recording showed me where my verbal delivery can improve and linked my coding ability to the communication a development career needs.</dd></dl></div>
-<div class="refl"><h4>3. Using GitHub Pages</h4><dl>
+<div class="refl"><h4>3. Using GitHub Pages <span class="star">STAR method</span></h4><dl>
 <dt>Situation</dt><dd>After designing my portfolio in Markdown, I needed to make it publicly accessible to lecturers and potential employers.</dd>
 <dt>Task</dt><dd>Deploy my repository to GitHub Pages as live evidence of my digital presence and deployment skills.</dd>
 <dt>Action</dt><dd>I enabled GitHub Pages in the repository settings, set the correct source, and checked that the video and links worked in the live environment.</dd>
@@ -245,7 +252,7 @@ section.blk>h3{font-size:1.2rem}
 <img src="images/agile-team-charter.png.jpeg" alt="Agile Team Charter for Perfume Velour Essence" loading="lazy">
 <p class="label">Evidence</p>
 <p>Our team agreement: the project purpose and each member's responsibilities for the Velour Essence custom fragrance platform. Imaad Petersen led as Product Owner, working with Anas Pansari, Dayyaan Francis, Zia Modarrisi and M. Jawaad Allie.</p>
-<div class="refl"><h4>Reflection: Agile Team Charter</h4><dl>
+<div class="refl"><h4>Reflection: Agile Team Charter <span class="star">STAR method</span></h4><dl>
 <dt>Situation</dt><dd>To start the project well, our team needed one framework for working agreements, communication channels and shared objectives.</dd>
 <dt>Task</dt><dd>As Product Owner, I set out to create a formal charter that aligned everyone around the project goals and their individual responsibilities.</dd>
 <dt>Action</dt><dd>I worked with the team to define core values, set expectations for sprint accountability and document our operating rules.</dd>
@@ -275,7 +282,7 @@ section.blk>h3{font-size:1.2rem}
 <details class="epic"><summary>Epic 6: Marketing and Engagement</summary><ul>
 <li>As a customer, I want to share my custom bottle design on social media, so that I can show off my creation and bring friends to the brand.</li>
 <li>As a marketing team member, I want to schedule and publish launch content, so that our campaign runs on time across channels.</li></ul></details>
-<div class="refl"><h4>Reflection: User Stories and Tasks</h4><dl>
+<div class="refl"><h4>Reflection: User Stories and Tasks <span class="star">STAR method</span></h4><dl>
 <dt>Situation</dt><dd>A web application with a custom scent builder, live preview and secure checkout needed precise functional requirements.</dd>
 <dt>Task</dt><dd>Translate high-level system goals into standard user stories and break them into actionable task checklists on Trello.</dd>
 <dt>Action</dt><dd>I wrote requirements in user story format and mapped them to developer checklists assigned across our sprints.</dd>
@@ -286,7 +293,7 @@ section.blk>h3{font-size:1.2rem}
 <img src="images/product-backlog.png" alt="Product backlog on Trello" loading="lazy">
 <p class="label">Evidence</p>
 <p>Our prioritised master list of features, sprint objectives and product requirements, managed on Trello (for example, Sprint 6: Marketing and Launch).</p>
-<div class="refl"><h4>Reflection: Product Backlog</h4><dl>
+<div class="refl"><h4>Reflection: Product Backlog <span class="star">STAR method</span></h4><dl>
 <dt>Situation</dt><dd>Several development tracks for Perfume Velour Essence ran at once, so we needed a central, prioritised backlog to control scope.</dd>
 <dt>Task</dt><dd>Maintain a living backlog that ordered upcoming features by business value and user demand.</dd>
 <dt>Action</dt><dd>I reviewed backlog items regularly, prioritised marketing and technical milestones, and updated card statuses as priorities shifted.</dd>
@@ -297,7 +304,7 @@ section.blk>h3{font-size:1.2rem}
 <img src="images/sprint-backlog.png" alt="Sprint backlog Trello board" loading="lazy">
 <p class="label">Evidence</p>
 <p>Our active Trello board with Product Backlog, In Progress and Completed columns, tracking sprint tasks across team members.</p>
-<div class="refl"><h4>Reflection: Sprint Backlog</h4><dl>
+<div class="refl"><h4>Reflection: Sprint Backlog <span class="star">STAR method</span></h4><dl>
 <dt>Situation</dt><dd>For continuous delivery, we needed a transparent workspace showing task allocation and progress in real time.</dd>
 <dt>Task</dt><dd>Manage the sprint columns so team members were aligned on daily deliverables.</dd>
 <dt>Action</dt><dd>I monitored tasks as they moved across the board, updated sprint statuses and coordinated responsibilities between members.</dd>
@@ -308,7 +315,7 @@ section.blk>h3{font-size:1.2rem}
 <img src="images/agile-logbook.png" alt="Agile logbook table" loading="lazy">
 <p class="label">Evidence</p>
 <p>A logbook table recording daily stand-ups, completed tasks, planned actions and risks or impediments across the sessions of 14 to 17 July.</p>
-<div class="refl"><h4>Reflection: Agile Logbook and Stand-ups</h4><dl>
+<div class="refl"><h4>Reflection: Agile Logbook and Stand-ups <span class="star">STAR method</span></h4><dl>
 <dt>Situation</dt><dd>Accountability and risk tracking were critical for getting past roadblocks in the design and planning phases.</dd>
 <dt>Task</dt><dd>Document stand-up outcomes, completed work and team impediments consistently.</dd>
 <dt>Action</dt><dd>I kept the daily logbook up to date, recording task updates and upcoming goals, and raised blockers about feature prioritisation.</dd>
@@ -324,8 +331,10 @@ section.blk>h3{font-size:1.2rem}
 </div>
 </main>
 
-<footer><div class="wrap foot"><span>Imaad Petersen &middot; PRP370S Digital Portfolio &middot; CPUT Faculty of Informatics and Design &middot; October 2026</span><a href="#top">Back to top</a></div></footer>
+<footer><div class="wrap foot"><span>Imaad Petersen &middot; PRP370S Digital Portfolio &middot; CPUT Faculty of Informatics and Design &middot; October 2026</span><a href="#pf">Back to top</a></div></footer>
 <dialog id="lb" aria-label="Enlarged screenshot"><img alt=""><button type="button">Close</button></dialog>
+</div>
+<script>(function(){var p=document.getElementById('pf'),b=document.body;if(!p||p.parentNode===b)return;b.appendChild(p);[].forEach.call(b.children,function(n){if(n!==p&&!/^(SCRIPT|STYLE|LINK|META|TITLE)$/.test(n.tagName))n.style.display='none'});document.documentElement.style.background='#f2f6f7'})();</script>
 <script>
 (function(){
 var bar=document.getElementById('bar'),links=[].slice.call(document.querySelectorAll('nav a[href^="#"]')),
@@ -348,3 +357,4 @@ d.addEventListener('click',function(e){if(e.target===d||e.target.tagName==='BUTT
 </script>
 </body>
 </html>
+
