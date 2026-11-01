@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Imaad Petersen: ICT Applications Development student portfolio with CV and Agile project artefacts."><title>Imaad Petersen | Digital Portfolio</title>
+<meta name="description" content="Imaad Petersen: ICT Applications Development student portfolio with CV and Agile project artefacts."><meta name="theme-color" content="#07242d"><title>Imaad Petersen | Digital Portfolio</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,700&family=Manrope:wght@400;500;700&display=swap" rel="stylesheet">
@@ -42,7 +42,7 @@ header p{margin:.4rem 0 0}
 .btn{display:inline-block;padding:11px 24px;border-radius:99px;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:.92rem;border:1px solid var(--accent)}
 .btn.ghost{background:transparent;color:var(--ink);border-color:var(--ink)}
 .btn:hover{background:var(--s2);border-color:var(--s2);color:#fff}
-.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1px;margin:-34px 0 0;padding:0;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--sh);position:relative}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(190px,100%),1fr));gap:1px;margin:-34px 0 0;padding:0;background:var(--line);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--sh);position:relative}
 .facts div{background:#fff;padding:16px 20px}
 .facts dt{font-size:.78rem;color:var(--muted);font-weight:500}
 .facts dd{margin:2px 0 0;color:var(--ink);font-weight:700;font-size:.92rem;line-height:1.4}
@@ -66,7 +66,7 @@ section.blk>h3{font-size:1.35rem;letter-spacing:-.01em;padding-bottom:10px;margi
 .job+.job{margin-top:18px;padding-top:18px;border-top:1px solid var(--line)}
 .job h4{font-size:1.1rem}.job em{color:var(--muted);font-size:.92rem}
 ul{padding-left:1.2rem;margin:.5rem 0}
-.refs{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px}
+.refs{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(240px,100%),1fr));gap:14px}
 .refs .card{margin:0;border-left:4px solid var(--accent)}
 .refs b{color:var(--ink)}
 .art{margin:0 0 28px}
@@ -85,7 +85,7 @@ ul{padding-left:1.2rem;margin:.5rem 0}
 .two-s .refl dt{color:var(--s2)}
 .refl dd{margin:0}
 .toc{margin-top:18px;padding:18px 22px}
-.toc ul{list-style:none;margin:6px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2px 28px}
+.toc ul{list-style:none;margin:6px 0 0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(250px,100%),1fr));gap:2px 28px}
 .toc li{display:flex;flex-direction:column;padding:8px 0;border-bottom:1px solid var(--line)}
 .toc a{color:var(--s2)}
 .toc span{font-size:.82rem;color:var(--muted)}
@@ -119,6 +119,40 @@ header h1 span{color:#7fd6dc}
 .banner p{color:rgba(255,255,255,.92)}
 .two-s section.blk>h3{border-bottom-color:rgba(58,63,163,.3)}
 @media print{header{background:#fff;color:#000}header h1,.contact a,.role{color:#000}.banner{background:#fff;border:1px solid #999}.banner h2,.banner small,.banner p{color:#000}}
+
+/* responsive */
+html{-webkit-text-size-adjust:100%}
+body{overflow-x:hidden}
+img,video,svg{max-width:100%}
+.wrap{max-width:960px}
+nav .wrap{scrollbar-width:none;-webkit-overflow-scrolling:touch}
+nav .wrap::-webkit-scrollbar{display:none}
+.contact{overflow-wrap:anywhere}
+.refl dd,.card,.epic li{overflow-wrap:break-word}
+@media(max-width:820px){.mast .meta{display:none}header{padding:64px 0 84px}.facts{margin-top:-40px}}
+@media(max-width:600px){
+.wrap{padding:0 16px}
+nav .wrap{padding:8px 16px}
+header{padding:48px 0 72px}
+.role{font-size:1rem}
+.contact{flex-direction:column;gap:4px}
+.btns{flex-direction:column}.btn{text-align:center;width:100%}
+.facts{margin-top:-34px;border-radius:12px}
+.banner{padding:22px 20px;margin:56px 0 4px;border-radius:12px}
+.banner:first-of-type{margin-top:48px}
+.banner h2{font-size:1.75rem}
+section.blk{padding:24px 0 2px}
+section.blk>h3{font-size:1.2rem}
+.card{padding:18px}
+.refl{padding:18px}
+.epic summary{padding:12px 14px}
+.epic ul{padding:8px 14px 12px 30px}
+.toc{padding:14px 16px}
+.chips{grid-template-columns:repeat(auto-fill,minmax(88px,1fr));gap:10px}
+.chips li{padding:14px 6px 12px}
+.foot{flex-direction:column}
+}
+@media(min-width:1400px){html{font-size:17px}.wrap{max-width:1040px}}
 </style>
 </head>
 <body id="top">
@@ -314,4 +348,3 @@ d.addEventListener('click',function(e){if(e.target===d||e.target.tagName==='BUTT
 </script>
 </body>
 </html>
-
