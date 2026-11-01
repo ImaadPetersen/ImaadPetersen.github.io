@@ -41,6 +41,11 @@
     font-size: 1.4rem;
   }
 
+  h3 {
+    color: var(--primary-color);
+    margin-top: 1.5rem;
+  }
+
   /* Icon Styling */
   i.fa-solid, i.fa-brands {
     color: var(--accent-color);
@@ -73,6 +78,16 @@
     color: var(--primary-color);
   }
 
+  /* Image Styling for Artifacts */
+  .artifact-img {
+    width: 100%;
+    max-width: 100%;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    margin: 15px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.04);
+  }
+
   /* Horizontal Divider */
   hr {
     border: none;
@@ -86,7 +101,7 @@
 
 <i class="fa-solid fa-location-dot"></i> Cape Town, South Africa &nbsp;•&nbsp; <i class="fa-solid fa-envelope"></i> petersenimaad3@gmail.com &nbsp;•&nbsp; <i class="fa-solid fa-phone"></i> 068 061 8314
 
-[<i class="fa-brands fa-linkedin"></i> **LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [<i class="fa-solid fa-file-arrow-down"></i> **Download Full CV (PDF)**](Imaad_Petersen_CV (2).pdf)
+[<i class="fa-brands fa-linkedin"></i> **LinkedIn Profile**](https://www.linkedin.com/in/imaad-petersen-b02ab22aa) | [<i class="fa-solid fa-file-arrow-down"></i> **Download Full CV (PDF)**](Imaad_Petersen_CV%20(2).pdf)
 
 ---
 
@@ -123,8 +138,8 @@ Motivated ICT (Applications Development) student seeking WIL placement to apply 
 
 ## <i class="fa-solid fa-graduation-cap"></i> Education
 
-* **CPUT Diploma ICT: Applications Development** | *2023 – Present*
-* **Livingstone High School** | *Matric Certificate | 2018 – 2022*
+- **CPUT Diploma ICT: Applications Development** | *2023 – Present*
+- **Livingstone High School** | *Matric Certificate | 2018 – 2022*
 
 ---
 
@@ -132,25 +147,115 @@ Motivated ICT (Applications Development) student seeking WIL placement to apply 
 
 ### **SEASONAL CRICKET COACH** | Under the Sun Cricket Coaching
 *Oct 2024 – Jan 2025*
-* Planned practice sessions, developed player skills and team strategies.
-* Assessed individual strengths for team selection.
+- Planned practice sessions, developed player skills and team strategies.
+- Assessed individual strengths for team selection.
 
 ### **SEASONAL CASHIER** | Howler Events
 *June 2020 – May 2025*
-* Processed sales, scanned items, verified armbands, handled payments.
-* Provided friendly service in high-pressure environment.
+- Processed sales, scanned items, verified armbands, handled payments.
+- Provided friendly service in high-pressure environment.
 
 ### **EVENT STAFF** | R&S Catering
-* Assisted with table setup and food arrangement.
-* Provided courteous service to guests.
+- Assisted with table setup and food arrangement.
+- Provided courteous service to guests.
 
 ---
 
 ## <i class="fa-solid fa-address-book"></i> Professional References
 
-* **Sazi** *(Events Manager, Howler Events)* — <i class="fa-solid fa-phone"></i> 071 489 9861
-* **Patrick Van Niekerk** *(Head Coach, Under The Sun)* — <i class="fa-solid fa-phone"></i> 081 335 7696
-* **Rijana Petersen** *(Owner, R&S Catering)* — <i class="fa-solid fa-phone"></i> 081 430 4801
+- **Sazi** *(Events Manager, Howler Events)* — <i class="fa-solid fa-phone"></i> 071 489 9861
+- **Patrick Van Niekerk** *(Head Coach, Under The Sun)* — <i class="fa-solid fa-phone"></i> 081 335 7696
+- **Rijana Petersen** *(Owner, R&S Catering)* — <i class="fa-solid fa-phone"></i> 081 430 4801
+
+---
+
+## <i class="fa-solid fa-diagram-project"></i> Agile Project Management & Artifacts (Perfume Velour Essence)
+
+Below are the core Agile management artifacts and documentation compiled during the development of our project, **Perfume Velour Essence**, developed collaboratively by Imaad Petersen (Product Owner), Anas Pansari, Dayyaan Francis, Zia Modarrisi, and M. Jawaad Allie.
+
+### 1. Agile Team Charter
+<img src="images/agile-team-charter.png.jpeg" alt="Agile Team Charter" class="org-img artifact-img">
+
+* **Description:** Establishes our team agreement, core project purpose, and individual responsibilities for the Velour Essence custom fragrance platform.
+* **Team Roles:** Imaad Petersen (Product Owner/Leader), working closely with Anas Pansari, Dayyaan Francis, Zia Modarrisi, and M. Jawaad Allie.
+
+> ### <i class="fa-solid fa-lightbulb"></i> Reflection: Agile Team Charter
+> * **Situation:** To kick off our collaborative project successfully, our development team needed a unified framework outlining our working agreements, communication channels, and shared objectives.
+> * **Task:** My objective as Product Owner was to establish a formal Team Charter that aligned all members around our project goals and individual responsibilities for *Perfume Velour Essence*.
+> * **Action:** I collaborated with the team to define our core values, set expectations for sprint accountability, and document our operational rules.
+> * **Result:** This charter eliminated ambiguity from day one, fostering a disciplined team culture that kept everyone focused throughout development.
+
+---
+
+### 2. User Stories and Tasks
+<img src="images/user-stories-tasks.png" alt="User Stories and Tasks" class="artifact-img">
+
+* **Description:** High-level project requirements were broken down into formal Epics and granular Trello tasks with actionable checklists.
+* **Formal Epics & User Stories:**
+  * **Epic 1: Custom Scent Builder**[cite: 18, 19]
+    * *"As a customer, I want to select scent notes and adjust intensity, so that I can build a fragrance that matches my taste."*[cite: 19]
+    * *"As a customer, I want to see a live preview/summary of my custom blend, so that I know exactly what I'm ordering before I pay."*[cite: 19]
+    * *"As a customer, I want the system to suggest complementary notes, so that I don't have to be a perfume expert to get a good blend."*[cite: 19]
+  * **Epic 2: Label & Bottle Personalization**[cite: 19]
+    * *"As a customer, I want to design a custom label with my own text/name, so that my bottle feels personal and giftable."*[cite: 19]
+    * *"As a customer, I want to choose a bottle size (small/medium/large), so that I can pick what fits my budget and usage."*[cite: 19]
+  * **Epic 3: Checkout & Payments**[cite: 19]
+    * *"As a customer, I want to add my custom scent to a cart and check out securely, so that I can complete my purchase with confidence."*[cite: 19]
+    * *"As a customer, I want to see the final price update as I customize, so that there are no surprises at checkout."*[cite: 19]
+  * **Epic 4: Account & Order Tracking**[cite: 19]
+    * *"As a customer, I want to create an account and log in, so that I can save my favorite blends and reorder easily."*[cite: 19]
+    * *"As a customer, I want to track my order status and delivery, so that I know when my perfume will arrive."*[cite: 19]
+  * **Epic 5: Admin & Operations**[cite: 19]
+    * *"As an admin, I want to manage product stock (oils, bottles, boxes), so that I can avoid running out during peak demand."*[cite: 19]
+    * *"As an admin, I want to view and export customer survey results, so that I can adjust pricing and scent offerings based on real feedback."*[cite: 19]
+  * **Epic 6: Marketing & Engagement**[cite: 19]
+    * *"As a customer, I want to share my custom bottle design on social media, so that I can show off my creation and bring friends to the brand."*[cite: 19]
+    * *"As a marketing team member, I want to schedule and publish launch content, so that our campaign runs on time across channels."*[cite: 19]
+
+> ### <i class="fa-solid fa-lightbulb"></i> Reflection: User Stories & Tasks
+> * **Situation:** Delivering a complex web application featuring a custom scent builder, live preview, and secure checkout required precise functional requirements.
+> * **Task:** My responsibility was to translate high-level system goals into standard Agile user stories and break them down into actionable task checklists on Trello.
+> * **Action:** I structured user requirements using standard user story conventions and mapped them to developer checklists assigned across our team sprints.
+> * **Result:** This practice ensured clear visibility into technical deliverables, bridging the gap between customer expectations and development execution.
+
+---
+
+### 3. Product Backlog
+<img src="images/product-backlog.png" alt="Product Backlog" class="artifact-img">
+
+* **Description:** Represents our prioritized master list of project features, upcoming sprint objectives, and strategic product requirements managed on Trello (e.g., *Sprint 6: Marketing & Launch*).
+
+> ### <i class="fa-solid fa-lightbulb"></i> Reflection: Product Backlog Management
+> * **Situation:** Managing multiple concurrent development tracks for *Perfume Velour Essence* required a centralized and prioritized backlog to control scope.
+> * **Task:** I needed to maintain a living Product Backlog that ordered upcoming features by business value and user demand.
+> * **Action:** I continuously reviewed backlog items, prioritized marketing and technical milestones, and updated card statuses as project priorities shifted.
+> * **Result:** Keeping an organized product backlog prevented scope creep and gave the team a clear roadmap of future requirements.
+
+---
+
+### 4. Sprint Backlog
+<img src="images/sprint-backlog.png" alt="Sprint Backlog" class="artifact-img">
+
+* **Description:** Displays our active Trello board layout with workflow columns (*Product Backlog*, *In Progress*, and *Completed*), tracking active sprint tasks across team members.
+
+> ### <i class="fa-solid fa-lightbulb"></i> Reflection: Sprint Backlog Execution
+> * **Situation:** To ensure continuous delivery, we needed a transparent workspace to track task allocation and progress in real-time.
+> * **Task:** My objective was to manage the Sprint Backlog columns effectively, ensuring team members were aligned on daily deliverables.
+> * **Action:** I monitored task progression across board columns, updating sprint statuses and coordinating responsibilities between team members.
+> * **Result:** Visualizing workflow states on our board improved team transparency and ensured our sprints were completed on schedule.
+
+---
+
+### 5. Agile Logbook
+<img src="images/agile-logbook.png" alt="Agile Logbook" class="artifact-img">
+
+* **Description:** Formal logbook table capturing daily stand-up records, completed tasks, planned actions, and risk/impediment tracking across project sessions (July 14–17).
+
+> ### <i class="fa-solid fa-lightbulb"></i> Reflection: Agile Logbook & Stand-ups
+> * **Situation:** Accountability and risk tracking were critical to overcoming roadblocks during the design and planning phases.
+> * **Task:** I needed to document daily stand-up outcomes, completed work, and team impediments consistently.
+> * **Action:** I maintained our daily logbook entries, recording task updates, upcoming goals, and addressing blockers regarding feature prioritization.
+> * **Result:** Regular logbook documentation reinforced team alignment and provided a clear historical record of our continuous progress.
 
 ---
 
@@ -173,121 +278,3 @@ Motivated ICT (Applications Development) student seeking WIL placement to apply 
 > * **Task:** The goal was to deploy my repository to GitHub Pages to provide live evidence of my digital presence and deployment skills.
 > * **Action:** I enabled GitHub Pages in my repository settings, ensuring my README.md was correctly targeted as the source. I verified that all multimedia elements, including my interview video and links, were functioning in the live environment.
 > * **Result:** By publishing to my github.io domain, I gained practical experience in the steps of e-portfolio creation. Having a live URL demonstrates my ability to take a software project from development to production.
-
-
-
-
-
-
-
-
-
-
-
-
-Here is your updated, fully tailored portfolio code, integrating your official team project details for **Perfume Velour Essence**, your role as **Product Owner**, your actual team members (Anas, Zia, Dayyaan, and Jawaad), your Trello board link (`[https://trello.com/b/jeBprN9z/perfume-velour-essence](https://trello.com/b/jeBprN9z/perfume-velour-essence)`), and real logbook updates.
-
-You can paste this directly into your GitHub portfolio file (replacing your previous agile section):
-
-
-<!-- ========================================== -->
-<!-- AGILE PROJECT MANAGEMENT & ARTIFACTS     -->
-<!-- ========================================== -->
-
-<hr>
-<h2><i></i> Agile Project Management & Artifacts — Perfume Velour Essence</h2>
-<p><strong>Project Board:</strong> <a href="https://trello.com/b/jeBprN9z/perfume-velour-essence" target="_blank">View Trello Board</a></p>
-
-<!-- 1. Agile Team Charter -->
-<section id="agile-team-charter">
-    <h3>1. Agile Team Charter</h3>
-    <p><em>Evidence: Co-created team agreement defining our custom perfume project goals, values, and working boundaries for Perfume Velour Essence.</em></p>
-    <div align="center">
-        <img src="images/agile-team-charter.png" alt="Agile Team Charter evidence" width="100%" class="evidence-image">
-    </div>
-    <blockquote>
-        <h4>Reflection — Method</h4>
-        <p><strong>Situation:</strong> To design and develop a high-quality customer-centric system for <em>Perfume Velour Essence</em>—a custom perfume creation business allowing customers to design personalized fragrances both in-store and online—our 5-member team needed a structured social contract[cite: 6].</p>
-        <p><strong>Task:</strong> As the Product Owner, my responsibility was to establish clear team roles (Product Owner, Scrum Master, Designer, Developer, and Research & Marketing) and define our shared vision of affordable luxury and user personalization[cite: 6].</p>
-        <p><strong>Action:</strong> I collaborated with Anas, Zia, Dayyaan, and Jawaad to map out our "Value Chain," establishing core team values (Collaboration, Respect, Transparency, Accountability, and Creativity) and setting up our foundational project guidelines[cite: 6].</p>
-        <p><strong>Result:</strong> This established a clear workflow where I set the product strategy, Jawaad managed the schedule, Zia handled UX design, Dayyaan built the code, and Anas drove market alignment, minimizing role confusion and streamlining project execution[cite: 6].</p>
-    </blockquote>
-</section>
-
-<hr>
-
-<!-- 2. User Stories and Tasks -->
-<section id="user-stories-tasks">
-    <h3>2. User Stories and Tasks</h3>
-    <p><em>Evidence: Breakdown of custom perfume features from the end-user's perspective into actionable Trello tasks[cite: 5].</em></p>
-    <div align="center">
-        <img src="images/user-stories-tasks.png" alt="User Stories and Tasks evidence" width="100%" class="evidence-image">
-    </div>
-    <blockquote>
-        <h4>Reflection — Method</h4>
-        <p><strong>Situation:</strong> Customers wanting to select scent combinations, customize perfumes, and place orders online required structured requirements that the development team could realistically build[cite: 6].</p>
-        <p><strong>Task:</strong> As Product Owner, I needed to define granular user stories detailing how customers interact with the custom fragrance builder.</p>
-        <p><strong>Action:</strong> I translated project requirements into user stories on our Trello board, itemizing them into specific design, backend, and research tasks for the team to execute.</p>
-        <p><strong>Result:</strong> This kept development entirely focused on delivering tangible user value and made tracking task completion transparent across sprints[cite: 5].</p>
-    </blockquote>
-</section>
-
-<hr>
-
-<!-- 3. Product Backlog -->
-<section id="product-backlog">
-    <h3>3. Product Backlog</h3>
-    <p><em>Evidence: Prioritized master list of features, business cases, wireframes, and requirements for Perfume Velour Essence[cite: 7, 8].</em></p>
-    <div align="center">
-        <img src="images/product-backlog.png" alt="Product Backlog evidence" width="100%" class="evidence-image">
-    </div>
-    <blockquote>
-        <h4>Reflection — Method</h4>
-        <p><strong>Situation:</strong> Our project scope encompassed initial business case conceptualization, brand guidelines, customer surveys, and website wireframes[cite: 8].</p>
-        <p><strong>Task:</strong> My responsibility as Product Owner was to prioritize the product backlog items to ensure high-value features (like the custom scent selection interface) were addressed first[cite: 6, 8].</p>
-        <p><strong>Action:</strong> I managed our Trello product backlog list, organizing items from initial business idea finalization and target audience identification through to prototyping[cite: 7, 8].</p>
-        <p><strong>Result:</strong> Maintaining a dynamic backlog allowed us to seamlessly transition items into active development sprints without losing sight of our core luxury branding objectives[cite: 6, 8].</p>
-    </blockquote>
-</section>
-
-<hr>
-
-<!-- 4. Sprint Backlog -->
-<section id="sprint-backlog">
-    <h3>4. Sprint Backlog</h3>
-    <p><strong>Sprint Board:</strong> <a href="https://trello.com/b/jeBprN9z/perfume-velour-essence" target="_blank">Trello Board Link</a></p>
-    <p><em>Evidence: Real-time, actionable plan outlining work items moved from Backlog to In Progress and Completed[cite: 5, 8].</em></p>
-    <div align="center">
-        <img src="images/sprint-backlog.png" alt="Sprint Backlog evidence" width="100%" class="evidence-image">
-    </div>
-    <blockquote>
-        <h4>Reflection — Method</h4>
-        <p><strong>Situation:</strong> Across our structured sprint milestones, we needed real-time visibility into active tasks to prevent team bottlenecks[cite: 6, 8].</p>
-        <p><strong>Task:</strong> My objective was to monitor sprint execution, ensuring tasks such as website wireframe design, customer survey analysis, and brand refinement progressed smoothly[cite: 8].</p>
-        <p><strong>Action:</strong> I utilized our Trello sprint columns to track day-to-day progress, moving cards across "Product Backlog", "In Progress", and "Completed" as milestones were achieved[cite: 6, 8].</p>
-        <p><strong>Result:</strong> Granular tracking ensured accountability across the team and guaranteed alignment with our 6-sprint timeline[cite: 6, 8].</p>
-    </blockquote>
-</section>
-
-<hr>
-
-<!-- 5. Agile Logbook -->
-<section id="agile-logbook">
-    <h3>5. Agile Logbook</h3>
-    <p><em>Evidence: Chronological tracking of daily stand-ups, team discussions, and progress updates for Perfume Velour Essence[cite: 7, 8, 9].</em></p>
-    <div align="center">
-        <img src="images/agile-logbook.png" alt="Agile Logbook evidence" width="100%" class="evidence-image">
-    </div>
-    <blockquote>
-        <h4>Reflection — Method</h4>
-        <p><strong>Situation:</strong> Tracking daily decisions regarding target audiences, survey outcomes, and website feature prioritization required a formal logbook[cite: 8, 9].</p>
-        <p><strong>Task:</strong> My task was to document daily stand-up metrics, including completed items, upcoming plans, and impediments encountered during project execution[cite: 8, 9].</p>
-        <p><strong>Action:</strong> I recorded daily stand-up logs (such as our sessions from 14–17 July 2026), capturing our discussions on competitor analysis, survey data processing, and design iterations[cite: 8, 9].</p>
-        <p><strong>Result:</strong> The logbook provided a reliable audit trail of our team's continuous adaptations, resolving feature prioritization challenges and keeping us on schedule[cite: 8, 9].</p>
-    </blockquote>
-</section>
-
-
-
----
-© 2026 Imaad Petersen | CPUT ICT Portfolio
